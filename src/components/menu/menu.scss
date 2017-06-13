@@ -1,0 +1,42 @@
+.menu {
+  display: flex;
+  flex-shrink: 0;
+  align-items: baseline;
+  min-width: 800px;
+
+  border: 1px solid gainsboro;
+  border-radius: 3px;
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+
+    border-right: 1px solid gainsboro;
+
+    padding: 10px;
+    background-color: #74b4cf;
+    box-shadow: rgba(181, 181, 181, 1);
+    width: 100%;
+
+    cursor: pointer;
+    
+    &:hover {
+      background-color: #5e91ab;
+    }
+    &:active {
+      background-color: #416476;
+    }
+  }
+
+  &__item-link {
+    text-decoration: none;
+
+    color: #444444;
+
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+}
