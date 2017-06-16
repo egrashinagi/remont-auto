@@ -1,0 +1,22 @@
+.services-list {
+  display: flex;
+  flex-direction: column;
+
+  padding: 10px;
+  height: 100%;
+  overflow-y: auto;
+
+  &__item {
+    display: flex;
+    flex-shrink: 0;
+    padding: 10px;
+
+    text-decoration: none;
+    color: #2f4956;
+    font-size: 18px;
+  }
+
+  &__item-text {
+    padding-right: 10px;
+  }
+}

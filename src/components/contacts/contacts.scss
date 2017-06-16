@@ -1,0 +1,20 @@
+.contacts {
+  display: flex;
+  flex-direction: column;
+
+  overflow-y: auto;
+  height: 100%;
+
+  padding: 10px;
+
+  &__link {
+    display: flex;
+    flex-shrink: 0;
+
+    text-decoration: none;
+    color: #0082cf;
+
+    padding-top: 10px;
+    font-size: 18px;
+  }
+}

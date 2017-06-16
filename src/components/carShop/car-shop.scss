@@ -1,0 +1,22 @@
+.car-shop {
+  display: flex;
+  flex-direction: column;
+
+  height: 100%;
+  overflow-y: auto;
+
+  padding: 10px;
+
+  &__item {
+    display: flex;
+    flex-shrink: 0;
+  }
+
+  &__item-link {
+    display: flex;
+    flex-shrink: 0;
+
+    padding: 10px;
+    color: #0082cf;
+  }
+}

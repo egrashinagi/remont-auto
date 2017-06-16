@@ -8,26 +8,34 @@
 
   padding: 30px;
 
+  overflow-y: auto;
+
   &__item {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-shrink: 0;
 
     height: 40%;
+    min-height: 100px;
     width: 40%;
 
     padding: 5px;
-    margin-right: 20px;
+    margin: 10px 20px;
 
     border: 1px solid gainsboro;
     border-radius: 3px;
     background-color: #eafffc;
     box-shadow: rgba(181, 181, 181, 1);
 
+    cursor: pointer;
   }
 
   &__item-link {
+    display: flex;
+    flex-shrink: 0;
+
     text-decoration: none;
 
     color: #444444;
@@ -35,9 +43,13 @@
     font-weight: bold;
     font-size: 20px;  
   }
+  &__item-link-icon {
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+  }
 
   &__item-title {
     padding-right:20px;
-    padding-bottom: 20px; ;
   }
 }

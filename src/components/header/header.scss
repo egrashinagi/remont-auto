@@ -5,7 +5,6 @@
   flex-shrink: 0;
   
   padding: 5px;
-  min-width: 800px;
 
   background-color: #8fdeff;
   box-shadow: rgba(181, 181, 181, 1);
@@ -19,6 +18,10 @@
 
       padding: 5px;
     }
+    &__left-link {
+      text-decoration: none;
+      color: #121111;
+    }
 
     &__left-logo {
       display: flex;
@@ -28,8 +31,6 @@
           font-weight: bold;
         }
     }
-
-
 
     &__center {
       display: flex;

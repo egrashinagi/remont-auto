@@ -1,0 +1,30 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-shrink: 0;
+
+  align-items:flex-end;
+
+
+  padding: 10px;
+  margin: 10px;
+
+  &__left {
+    display: flex;
+
+    padding: 10px;
+  }
+
+  &__right {
+    display: flex;
+
+    padding: 10px;
+    color: #47738a;
+  }
+
+  &__left-link {
+    text-decoration: none;
+    color: #47738a;
+  }
+}

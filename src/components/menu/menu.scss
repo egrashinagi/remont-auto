@@ -1,11 +1,9 @@
 .menu {
   display: flex;
   flex-shrink: 0;
-  align-items: baseline;
-  min-width: 800px;
 
   border: 1px solid gainsboro;
-  border-radius: 3px;
+  border-radius: 5px;
 
   &__item {
     display: flex;
@@ -14,6 +12,7 @@
     flex-wrap: nowrap;
 
     border-right: 1px solid gainsboro;
+    border-radius: 3px;
 
     padding: 10px;
     background-color: #74b4cf;
@@ -27,6 +26,9 @@
     }
     &:active {
       background-color: #416476;
+    }
+    &_blue {
+      background-color: #bed9d9;
     }
   }
 
